@@ -38,8 +38,10 @@ This bot is designed to verify whether a user is part of the senior class at TJH
 
 ### 3. Clone This Repository
 Clone the repository and navigate into the project directory:
-`git clone https://github.com/bhkrayola/scavhuntverificationbot.git 
-cd scavhuntverificationbot`
+```
+git clone https://github.com/bhkrayola/scavhuntverificationbot.git 
+cd scavhuntverificationbot
+```
 
 ### 4. Install Python Dependencies
 Install the required Python libraries using pip:
@@ -48,12 +50,14 @@ Install the required Python libraries using pip:
 ### 5. Set Up Environment Variables
 Create a .env file or set up environment variables in your operating system. Here's an example .env file:
 
-`DISCORD_TOKEN=your_discord_bot_token
+```
+DISCORD_TOKEN=your_discord_bot_token
 CLIENT_ID=your_ion_client_id
 CLIENT_SECRET=your_ion_client_secret
 REDIRECT_URI=http://localhost:5000/callback  # Or your public-facing URL
 GUILD_ID=your_discord_guild_id
-ROLE_ID=your_role_id`
+ROLE_ID=your_role_id
+```
 
 ### 6. Running the Bot Locally
 To run the bot locally, simply use:
